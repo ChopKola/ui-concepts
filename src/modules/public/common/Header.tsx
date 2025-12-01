@@ -134,14 +134,14 @@ const Header = ({ toggleCart }: { toggleCart: () => void }) => {
               {/* Dropdown Content */}
               <div className="absolute top-[calc(100%+0.5rem)] right-0 w-52 hidden group-hover:block z-50">
                 <div className="bg-white border border-gray-100 shadow-xl rounded-2xl overflow-hidden p-2">
-                  <a href="/login" className="flex items-center gap-3 px-4 py-3 text-sm font-medium text-[#4b5966] hover:bg-[#fff6ec] hover:text-brand-orange rounded-xl transition-colors">
+                  <Link to="/login" className="flex items-center gap-3 px-4 py-3 text-sm font-medium text-[#4b5966] hover:bg-[#fff6ec] hover:text-brand-orange rounded-xl transition-colors">
                     <LogIn size={18} />
                     <span>Login</span>
-                  </a>
-                  <a href="/register" className="flex items-center gap-3 px-4 py-3 text-sm font-medium text-[#4b5966] hover:bg-[#fff6ec] hover:text-brand-orange rounded-xl transition-colors">
+                  </Link>
+                  <Link to="/register" className="flex items-center gap-3 px-4 py-3 text-sm font-medium text-[#4b5966] hover:bg-[#fff6ec] hover:text-brand-orange rounded-xl transition-colors">
                     <UserPlus size={18} />
                     <span>Register</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
