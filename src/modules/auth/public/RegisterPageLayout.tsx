@@ -194,7 +194,7 @@ const RegisterPageLayout: React.FC = () => {
       <div className="hidden lg:block w-1/2 relative overflow-hidden h-screen sticky top-0">
         <div className="absolute inset-0 bg-brand-orange/10 backdrop-blur-[2px] z-10"></div>
         <img
-          src="/vendor-resource/img/PROFILE.png"
+          src="/ui-concepts/vendor-resource/img/PROFILE.png"
           alt="Food Background"
           className="absolute inset-0 w-full h-full "
         />
